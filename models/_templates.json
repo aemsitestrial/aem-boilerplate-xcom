@@ -67,6 +67,13 @@
           "valueType": "string",
           "value": "pdp",
           "readOnly": true
+        },
+        {
+          "component": "text",
+          "name": "sku",
+          "label": "SKU",
+          "valueType": "string",
+          "description": "Set SKU of the product if value is case sensitive"
         }
       ]
     },
@@ -346,6 +353,20 @@
           "label": "Template",
           "valueType": "string",
           "value": "create-password",
+          "readOnly": true
+        }
+      ]
+    },
+    {
+      "id": "wishlist-metadata",
+      "fields":
+      [
+        {
+          "component": "text",
+          "name": "template",
+          "label": "Template",
+          "valueType": "string",
+          "value": "wishlist",
           "readOnly": true
         }
       ]

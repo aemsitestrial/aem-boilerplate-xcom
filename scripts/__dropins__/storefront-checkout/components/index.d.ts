@@ -14,7 +14,9 @@
  * is strictly forbidden unless prior written permission is obtained
  * from Adobe.
  *******************************************************************/
+export * from './AddressValidation';
 export * from './BillToShippingAddress';
+export * from './ConditionalWrapper/index';
 export * from './EstimateShipping';
 export * from './LoginForm';
 export * from './Markup';

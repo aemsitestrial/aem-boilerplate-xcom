@@ -22,10 +22,12 @@ export * from './country';
 export * from './custom-attribute';
 export * from './customer';
 export * from './email-availability';
+export * from './money';
 export * from './payment-method';
-export * from './price';
+export * from './quote';
 export * from './region';
 export * from './shipping-estimate';
 export * from './shipping-method';
 export * from './store-config';
+export * from './values';
 //# sourceMappingURL=index.d.ts.map
